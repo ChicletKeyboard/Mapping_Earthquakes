@@ -19,3 +19,6 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 // to change map's style (outdoors,sattelite, etc.) change the id mapbox/
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
+
+// Add marker for Los Angeles, California
+let marker = L.marker([34.0522, -118.2437]).addTo(map);
